@@ -19,8 +19,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="moment.js"></script>
-<script src="moment-timezone-with-data.js"></script>
+
     <title>Work Day Scheduler</title>
   </head>
 
@@ -28,7 +27,7 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead time-block"></p>
+      <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <table class="table table-bordered">
@@ -44,47 +43,47 @@
         <tbody>
           <tr>
             <th scope="row" class="time">9AM</th>
-            <td><input type="text" class="form-control"></td>
+            <td><input id="9Row" type="text" class="form-control"></td>
             <td><button type="button" class="btn saveBtn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
           </tr>
           <tr>
             <th scope="row" class="time">10AM</th>
-            <td><input type="text" class="form-control"></td>
+            <td><input id="10Row" type="text" class="form-control"></td>
             <td><button type="button" class="btn saveBtn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
           </tr>
           <tr>
             <th scope="row" class="time">11AM</th>
-            <td><input type="text" class="form-control description"></td>
+            <td><input id="11Row" type="text" class="form-control description"></td>
             <td><button type="button" class="btn saveBtn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
           </tr>
           <tr>
             <th scope="row" class="time">12PM</th>
-            <td><input type="text" class="form-control description"></td>
+            <td><input id="12Row" type="text" class="form-control description"></td>
             <td><button type="button" class="btn saveBtn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
           </tr>
           <tr>
             <th scope="row" class="time">1PM</th>
-            <td><input type="text" class="form-control description"></td>
+            <td><input id="1Row" type="text" class="form-control description"></td>
             <td><button type="button" class="btn saveBtn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
           </tr>
           <tr>
             <th scope="row" class="time">2PM</th>
-            <td><input type="text" class="form-control description"></td>
+            <td><input id="2Row" type="text" class="form-control description"></td>
             <td><button type="button" class="btn saveBtn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
           </tr>
           <tr>
             <th scope="row" class="time">3PM</th>
-            <td><input type="text" class="form-control description"></td>
+            <td><input  id="3Row" type="text" class="form-control description"></td>
             <td><button type="button" class="btn saveBtn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
           </tr>
           <tr>
             <th scope="row" class="time">4PM</th>
-            <td><input type="text" class="form-control description"></td>
+            <td><input id="4Row" type="text" class="form-control description"></td>
             <td><button type="button" class="btn saveBtn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
           </tr>
           <tr>
             <th scope="row" class="time">5PM</th>
-            <td><input type="text" class="form-control description"></td>
+            <td><input id="5Row" type="text" class="form-control description"></td>
             <td><button type="button" class="btn saveBtn"><i class="fas fa-lock" aria-hidden="true"></i></button></td>
           </tr>
         </tbody>

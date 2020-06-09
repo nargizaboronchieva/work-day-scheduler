@@ -28,6 +28,7 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  
 }
 
 .row {
@@ -68,4 +69,24 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+th {
+  text-align: center;
+}
+
+table.table-bordered{
+  border:2px solid white;
+  margin-top:20px;
+}
+table.table-bordered > thead > tr > th{
+  border:2px solid white;
+}
+table.table-bordered > tbody > tr > td{
+  border:2px solid white;
+}
+
+.btn {
+  background-color: #01425e;
+  color: white;
 }
