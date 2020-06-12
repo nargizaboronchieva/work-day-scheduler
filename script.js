@@ -21,11 +21,15 @@ $(document).ready(function(){
     renderPlans();
 
      //Show Data and time in header 
-   $("#currentDay").append()
-
-    function addDate() {
-        $("#currentDay").html(moment('MMMM Do YYYY, h:mm a'));
-    } setInterval(addDate,1000);
+     var dateTime = null,
+     date = null;
+     var update = function () {
+    date = moment(new Date())
+    dateTime.html(date.format('dddd, MMMM Do YYYY, h:mm:ss a'));
+    };
+    dateTime = $('#currentDay')
+    update();
+    setInterval(update, 1000);
 
   // Change color in each row by adding in am attribute (above) for each input line to reflect the current hour 
   for (var i = 0; i <= 12; i++) {  

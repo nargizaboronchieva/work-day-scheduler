@@ -15,7 +15,7 @@ textarea{
 
 .jumbotron {
   text-align: center;
-  background-color: brown;
+  background-color: violet;
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
@@ -62,7 +62,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: brown;
+  background-color: blueviolet;
   color: white;
 }
 
@@ -86,7 +86,7 @@ table.table-bordered > tbody > tr > td{
   border:2px solid white;
 }
 
-.btn {
-  background-color: #01425e;
-  color: white;
+#currentDay {
+  font-size:50px;
+  color: blueviolet;
 }
