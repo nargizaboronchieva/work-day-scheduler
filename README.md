@@ -10,7 +10,7 @@ A simple calendar application that allows the user to save events for each hour 
 - Hours are color coded to indicate past, present, and future time slots.
 - Users can clear the previous day's events by using the "Clear All" button.
 
-##Simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery:
+## Simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery:
 When the user opens the planner  -then the current day is displayed at the top of the calendar
 When the user  scrolls down then  the user is  presented with timeblocks for standard business hours
 When the user  view the timeblocks for that day   -  then each timeblock is color coded to indicate whether it is in the past, present, or future
